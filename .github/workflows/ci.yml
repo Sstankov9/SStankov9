@@ -7,8 +7,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: CI
-
-on:
   push:
     branches: [ "main" ]
   pull_request:
